@@ -1,8 +1,8 @@
 {
-  "name": "@brightcove/player-loader-webpack-plugin",
+  "name": "@wizpanda/player-loader-webpack-plugin",
   "version": "1.1.0",
-  "description": "The official webpack plugin for the Brightcove Player.",
-  "repository": "github:brightcove/player-loader-webpack-plugin",
+  "description": "The official webpack plugin for the Brightcove Player (forked & modified)",
+  "repository": "github:wizpanda/player-loader-webpack-plugin",
   "main": "src/index.js",
   "scripts": {
     "predemo": "rm -f ./demo/dist.js",
@@ -29,7 +29,7 @@
       "demo/dist.js"
     ]
   },
-  "author": "Brightcove, Inc.",
+  "author": "Brightcove, Inc. (modified by WizPanda)",
   "license": "Apache-2.0",
   "dependencies": {
     "@brightcove/player-url": "^1.1.1",
